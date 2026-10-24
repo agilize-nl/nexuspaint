@@ -8,9 +8,8 @@ NexusPaint is a fast, approachable, layer-based image editor built for Linux.
 It combines a familiar desktop workflow with a modern, dependency-light
 TypeScript and Tauri foundation.
 
-> **Status:** NexusPaint is under active development. The current development
-> version is **0.7.7**. Public release downloads will appear on the
-> [Releases](https://github.com/agilize-nl/nexuspaint/releases) page.
+> **Status:** NexusPaint is under active development. The latest preview is
+> [version 0.7.7](https://github.com/agilize-nl/nexuspaint/releases/tag/v0.7.7).
 
 ![NexusPaint editor with an image open](screenshots/editor-overview.png)
 
@@ -40,8 +39,16 @@ and farbfeld.
 
 ## Platform
 
-NexusPaint currently targets Linux desktop systems. Debian packages will be
-provided with public releases.
+NexusPaint currently targets 64-bit Linux desktop systems. Download the current
+[Debian package](https://github.com/agilize-nl/nexuspaint/releases/download/v0.7.7/NexusPaint_0.7.7_amd64.deb)
+and install it on a Debian or Ubuntu-based distribution with:
+
+```bash
+sudo apt install ./NexusPaint_0.7.7_amd64.deb
+```
+
+Other versions and release notes are available on the
+[Releases](https://github.com/agilize-nl/nexuspaint/releases) page.
 
 ## Project scope
 
